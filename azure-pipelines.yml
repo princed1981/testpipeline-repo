@@ -21,6 +21,6 @@ steps:
     location: 'Canada Central'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName testpipeline -linkedTemplateUri https://raw.githubusercontent.com/princed1981/testpipeline-repo/main/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName tstpipeline -linkedTemplateUri https://raw.githubusercontent.com/princed1981/testpipeline-repo/main/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'Deploytestpipelinetemplate'
